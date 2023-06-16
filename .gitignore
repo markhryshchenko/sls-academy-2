@@ -2,6 +2,7 @@
 
 # dependencies
 02_primitive_db/node_modules
+03_cli_telegram_console_sender/node_modules
 /.pnp
 .pnp.js
 

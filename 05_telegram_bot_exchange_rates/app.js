@@ -1,7 +1,7 @@
 //@test_cli_to_telegram_bot:
 const axios = require("axios");
 const TelegramApi = require("node-telegram-bot-api");
-const token = "6148812560:AAGFCP95qD-L8tvBSOUWd5wp668hv96BDoo";
+
 const privatURL = "https://api.privatbank.ua/p24api/pubinfo?exchange&coursid=5";
 const monoURL = "https://api.monobank.ua/bank/currency";
 const bot = new TelegramApi(token, { polling: true });

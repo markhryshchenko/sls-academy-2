@@ -1,9 +1,9 @@
 const axios = require("axios");
 const TelegramApi = require("node-telegram-bot-api");
-const token = "6148812560:AAGFCP95qD-L8tvBSOUWd5wp668hv96BDoo";
+
 const URL = "https://api.openweathermap.org/data/2.5/forecast?";
 const currentCity = "Харків";
-const userKey = "eb2ae53265b164308bbc5216022744c2";
+
 const bot = new TelegramApi(token, { polling: true });
 
 const getWeather = async (dataInterval, chatId) => {
